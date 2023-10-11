@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #3f2305;
+}
+.container-fluid {
+  background-color: #dfd7bf;
+}
+.navbar-brand {
+  font-family: "Lugrasimo", cursive;
+}
+.d-block {
+  height: 90vh;
+}
+.category {
+  display: grid;
+  grid-template-columns: 30vw 30vw 30vw;
+  grid-template-rows: 40vh;
+  justify-content: center;
+  column-gap: 3vw;
+  margin-top: 3vh;
+}
+.table {
+  background-size: 30vw 40vh;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+.table:hover {
+  transform: scale(1.1);
+}
+h2.name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-family: "Poppins", sans-serif;
+}
+#appointment {
+  background-image: url("images/img4.jpg");
+}
+#giftcard {
+  background-image: url("images/img5.jpg");
+}
+#thebarber {
+  background-image: url("images/img6.jpg");
+}
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 5vw;
+  margin-bottom:20px;
+  border:2px solid #dfd7bf;
+}
+.left,.left2{
+  height: 70vh;
+  width:50vw;
+  background-image: url("images/img2.jpg");
+  background-repeat: no-repeat;
+  background-size: 50vw 70vh;
+  margin: 5vh 0vh;
+  
+}
+.left2{
+  background-image: url("images/img1.jpg");
+}
+.right {
+  width:350px;
+  margin: 5vh 0vh;
+}
+h1.title {
+  font-weight: bolder;
+  color: #dfd7bf;
+}
+h2.haircut {
+  color: #dfd7bf;
+}
+p {
+  color: #dfd7bf;
+  text-align: justify;
+}
+.row{
+  color:white;
+  margin: 3vw;
+}
+.btn{
+  color:#3f2305;
+  border:0.05vw solid#3f2305;
+  background-color:#dfd7bf;
+}
+.Copyright{
+  background-color:#dfd7bf;
+}
+.Copyright_thebarber{
+  text-align: center;
+  color:#3f2305;
+  padding: 20px;
+
+}
+@media  screen and (max-width:785px) {
+  .right{
+    margin-top:0;
+    text-align: center;
+  }
+  .left, .left2 {
+    width: 90vw;
+    background-size: 90vw 70vh;
+}
+h2.name{
+  font-size: 4vw;
+}
+.main {
+
+  gap: 0vw;
+
+}
+}
